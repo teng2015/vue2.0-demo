@@ -1,28 +1,20 @@
-<template lang="html">
-
+<template>
+  <div>
+    <counter></counter>
+  </div>
 </template>
 
 <script>
-import Counter from 'components/counter'
+import Counter from 'components/Counter'
 export default {
   data: function () {
-    return {
-    }
+    return {}
   },
-  template: `
-    <div>
-      <counter></counter>
-    </div>
-  `,
-  computed: {},
-  ready: function () {},
-  attached: function () {},
-  methods: {},
   components: {
     Counter
   }
 }
 </script>
 
-<style lang="css">
+<style lang="scss">
 </style>
